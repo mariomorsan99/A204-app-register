@@ -15,8 +15,7 @@ namespace GraphClient
         private const string _tenantId = "5b8083b7-67d6-450d-b4b1-f8a88959a63a";
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            
             IPublicClientApplication app;
 
             app = PublicClientApplicationBuilder    .Create(_clientId)
